@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* header section start */
+.banner-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner-text h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 650;
+}
+.banner-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.shop-btn {
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+.banner-img {
+    margin-bottom: -7px;
+}
+.banner-img img {
+    width: 100%;
+}
+/* header section end */
