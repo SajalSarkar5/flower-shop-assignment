@@ -146,7 +146,7 @@ body {
     text-align: center;
     width: 80%;
     margin: 0px auto;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 
 .beautiful-img img {
@@ -191,7 +191,7 @@ body {
     font-weight: 800;
 }
 
-.off-color {
+.color-primary {
     color: #E55473;
 }
 
@@ -213,6 +213,7 @@ body {
     width: 80%;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .instagram-text h3 {
@@ -254,6 +255,7 @@ body {
     align-items: center;
     text-align: center;
     height: 449px;
+    margin-bottom: 100px;
 }
 
 .latest-deals h3 {
@@ -280,4 +282,35 @@ body {
     font-weight: 400;
     margin-right: 15px;
 }
+
 /* latest deals section end */
+
+/* footer section start */
+footer {
+    background-color: #111010;
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer h3 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+footer small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* footer section end */
