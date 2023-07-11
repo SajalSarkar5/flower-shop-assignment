@@ -33,11 +33,14 @@ body {
     margin: 20px 0;
 }
 
-.shop-btn {
+.btn {
     border-radius: 8px;
     background-color: #E55473;
     padding: 20px 43px;
     border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .banner-img {
@@ -107,12 +110,14 @@ body {
     background-color: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0;
 }
+
 /* featured flowers section end */
 
 /* service section start */
 .services-support-area {
     margin: 100px 0;
 }
+
 .services-support {
     display: flex;
     justify-content: space-evenly;
@@ -124,9 +129,42 @@ body {
     margin: 0 auto;
     padding: 86px 146px;
 }
+
 .services-support p {
     color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
     font-weight: 500;
 }
+
 /* service section end */
+
+/* sale section start */
+.hot-deal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 80px;
+}
+.sale-text h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off-color {
+    color: #E55473;
+}
+
+.sale-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.sale-img img {
+    width: 100%;
+}
+/* sale section end */
