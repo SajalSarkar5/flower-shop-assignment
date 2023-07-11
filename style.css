@@ -147,7 +147,9 @@ body {
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     padding: 80px;
+    margin-bottom: 100px;
 }
+
 .sale-text h3 {
     color: #272727;
     font-size: 40px;
@@ -164,7 +166,38 @@ body {
     font-weight: 400;
     margin: 20px 0;
 }
+
 .sale-img img {
     width: 100%;
 }
+
 /* sale section end */
+
+/* instagram section start */
+.instagram-text {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.instagram-text h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 13px 0px 40px;
+}
+.instagram-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.instagram-img img {
+    width: 100%;
+}
+/* instagram section end */
