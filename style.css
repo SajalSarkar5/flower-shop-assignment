@@ -138,6 +138,36 @@ body {
 
 /* service section end */
 
+/* beautiful flowers section start */
+.beautiful-flowers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 90px;
+}
+.beautiful-img img {
+    width: 400px;
+}
+.beautiful-title h6 {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+}
+.beautiful-title h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.btn-shop {
+    width: 188px;
+    margin: 0 auto;
+}
+/* beautiful flowers section end */
+
 /* sale section start */
 .hot-deal {
     display: flex;
@@ -192,12 +222,16 @@ body {
     font-weight: 400;
     margin: 13px 0px 40px;
 }
+
 .instagram-img {
     display: flex;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
 }
+
 .instagram-img img {
     width: 100%;
 }
+
 /* instagram section end */
+
